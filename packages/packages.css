@@ -1,0 +1,51 @@
+#section-packages {
+  padding: 28px 0px;
+}
+
+#plus {
+  background-color: rgba(198, 241, 209, 0.95);
+}
+
+#free {
+  background-color: rgba(244, 255, 247, 0.95);
+}
+
+#premium {
+  background-color: rgba(0, 100, 0, 0.95);
+}
+
+.package-box {
+  padding: 28px;
+  margin: 15px 0;
+  border: 3px solid darkgreen;
+  border-left: none;
+  width: 80%;
+}
+
+.package-box:hover {
+  border-color: #ff1b68;
+  box-shadow: 2px 2px 4px grey;
+}
+
+.box-link {
+  text-decoration: none;
+  color: black;
+}
+
+.box-link h2 {
+  color: grey;
+}
+
+.package-desc {
+  background-color: white;
+  padding: 16px;
+  border: 1px solid darkgreen;
+}
+
+.highlighted {
+  background-color: darkgreen;
+}
+
+.highlighted .package-header {
+  color: white;
+}
