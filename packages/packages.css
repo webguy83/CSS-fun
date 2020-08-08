@@ -52,7 +52,7 @@
   color: white;
 }
 
-.background {
+.backgroundPackage {
   background: url('../images/plans-background.jpg') center/cover;
   filter: grayscale(40%);
   width: 100vw;
