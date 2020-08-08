@@ -1,5 +1,6 @@
 #section-packages {
-  padding: 28px 0px;
+  padding: 2rem 0px;
+  margin-top: 2.8rem;
 }
 
 #plus {
@@ -15,9 +16,10 @@
 }
 
 .package-box {
-  padding: 28px;
-  margin: 15px 0;
-  border: 3px solid darkgreen;
+  position: relative;
+  padding: 2rem;
+  margin: 1rem 0;
+  border: 0.2rem solid darkgreen;
   border-left: none;
   width: 80%;
 }
@@ -38,7 +40,7 @@
 
 .package-desc {
   background-color: white;
-  padding: 16px;
+  padding: 1rem;
   border: 1px solid darkgreen;
 }
 
@@ -48,4 +50,23 @@
 
 .highlighted .package-header {
   color: white;
+}
+
+.background {
+  background: url('../images/plans-background.jpg') center/cover;
+  filter: grayscale(40%);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+}
+
+.badge {
+  width: 2.2rem;
+  height: 2.2rem;
+  background-color: gold;
+  border-radius: 50%;
+  position: absolute;
+  right: 0.6rem;
+  top: 0.6rem;
 }

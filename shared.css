@@ -8,8 +8,8 @@
 
 .cta.item {
   background-color: #ff1b68;
-  padding: 5px 10px;
-  border-radius: 5px;
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.3rem;
 }
 
 .cta.item:hover,
@@ -29,7 +29,7 @@
 
 .item {
   display: inline-block;
-  margin: 0 35px;
+  margin: 0 2.2rem;
 }
 
 .link {
@@ -38,20 +38,29 @@
   font-weight: bold;
 }
 
-.link:hover,
-.link:active {
+nav .link:hover,
+nav .link:active {
   color: white;
-  border-bottom: 5px solid white;
+  border-bottom: 0.3rem solid white;
 }
 
 .logo > .link {
   font-weight: bold;
+  height: 1.4rem;
+  display: inline-block;
+}
+
+.link > img {
+  height: 100%;
 }
 
 .header {
   background-color: lightgreen;
-  padding: 8px 16px;
+  padding: 0.5rem 1rem;
   width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
 }
 
 body {
@@ -61,12 +70,13 @@ body {
 
 .nav {
   text-align: right;
-  width: calc(100% - 55px);
+  width: calc(100% - 3.4rem);
 }
 
 .nav,
 .logo {
   display: inline-block;
+  vertical-align: bottom;
 }
 
 /* footer */
@@ -74,8 +84,8 @@ body {
 .footer {
   background-color: black;
   color: white;
-  padding: 32px;
-  margin-top: 48px;
+  padding: 2rem;
+  margin-top: 3rem;
 }
 
 .footer ul {
@@ -87,7 +97,7 @@ body {
 
 .footer ul > li {
   display: inline-block;
-  margin: 0 16px;
+  margin: 0 1rem;
 }
 
 .footer ul > li > a {

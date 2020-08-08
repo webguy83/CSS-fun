@@ -1,21 +1,30 @@
 #product-overview {
-  background: url('freedom.jpg');
+  background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
+    url('freedom.jpg') left 10% top 20% / cover no-repeat border-box, #ff1b68;
   width: 100%;
-  height: 528px;
-  padding: 10px;
+  height: 33vh;
+  padding: 0.6rem;
+  position: relative;
 }
 
 #product-overview h1 {
   color: white;
   font-family: 'Anton', sans-serif;
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
+}
+
+.content {
+  margin-top: 2.8rem;
 }
 
 article {
   background-color: #c6f1d1;
   width: 30%;
   display: inline-block;
-  padding: 20px;
-  margin: 0 5px;
+  padding: 1.3rem;
+  margin: 0 0.3rem;
   vertical-align: middle;
 }
 
@@ -39,8 +48,8 @@ article button {
   background-color: darkgreen;
   color: white;
   border: none;
-  padding: 8px;
-  border-radius: 10px;
+  padding: 0.5rem;
+  border-radius: 0.6rem;
   cursor: pointer;
 }
 
@@ -62,8 +71,8 @@ article button:focus {
 .highlighted > h1:first-child {
   background-color: white;
   border: none;
-  padding: 8px;
-  border-radius: 10px;
+  padding: 0.5rem;
+  border-radius: 0.6rem;
   color: #42af42;
   box-shadow: 2px 2px 5px #000;
 }
@@ -78,18 +87,19 @@ article button:focus {
 
 #stickaround-section {
   background-color: #ff1b68;
-  padding: 20px 60px;
+  padding: 1.3rem 3.8rem;
   color: white;
   text-align: center;
 }
 
 .circle {
-  width: 100px;
-  height: 100px;
+  width: 6.3rem;
+  height: 6.3rem;
   border-radius: 50%;
   border: 1px solid black;
   background-color: white;
   margin: 0 auto;
+  padding: 1.3rem;
 }
 
 .circle + p {
@@ -104,5 +114,5 @@ article button:focus {
 }
 
 .circlegroup {
-  margin: 35px 0;
+  margin: 2rem 0;
 }
