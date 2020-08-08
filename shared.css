@@ -23,7 +23,7 @@
 
 .item {
   display: inline-block;
-  margin: 0 2.2rem;
+  margin: 0 1.4rem;
 }
 
 .link,
@@ -49,9 +49,9 @@ nav .link:active {
 
 .logo > .link {
   font-weight: bold;
-  height: 1.4rem;
   display: inline-block;
   vertical-align: middle;
+  height: 2.5rem;
 }
 
 .link > img {
@@ -72,17 +72,17 @@ body {
   margin: 0;
 }
 
-.nav {
-  text-align: right;
-  width: calc(100% - 122px);
-}
-
 .nav,
 .logo {
   display: inline-block;
   vertical-align: middle;
 }
 
+.nav {
+  display: none;
+  text-align: right;
+  width: calc(100% - 122px);
+}
 /* footer */
 
 .footer {
@@ -90,6 +90,7 @@ body {
   color: white;
   padding: 2rem;
   margin-top: 3rem;
+  height: 5rem;
 }
 
 .footer ul {
@@ -222,4 +223,17 @@ body {
   background: black;
   display: block;
   margin: 0.6rem 0;
+}
+
+main {
+  min-height: calc(100vh - 3.5rem - 8rem);
+}
+
+@media (min-width: 40rem) {
+  .toggle-button {
+    display: none;
+  }
+  .nav {
+    display: inline-block;
+  }
 }
