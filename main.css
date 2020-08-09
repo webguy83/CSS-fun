@@ -53,26 +53,6 @@ article > ul {
   padding: 0;
 }
 
-article button {
-  font: inherit;
-  font-weight: bold;
-  background-color: darkgreen;
-  color: white;
-  border: none;
-  padding: 0.5rem;
-  border-radius: 0.6rem;
-  cursor: pointer;
-}
-
-article button:hover {
-  background-color: white;
-  color: darkgreen;
-}
-
-article button:focus {
-  outline: none;
-}
-
 .highlighted {
   background-color: #42af42;
   color: white;
