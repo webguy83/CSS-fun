@@ -6,12 +6,14 @@ const mobileNav = document.querySelector('.mobile-nav');
 
 function openModal() {
   background.style.display = 'block';
-  modal.style.display = 'block';
+  modal.style.opacity = 1;
+  modal.style.transform = 'translateY(0)';
 }
 
 function openNav() {
   background.style.display = 'block';
   mobileNav.style.display = 'block';
+
 }
 
 function closeModal() {
